@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Syne:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-syne: "Syne", sans-serif;
+  --color-navy-deep: #0a1628;
+  --color-navy-accent: #0f223a;
+  --color-teal-accent: #00d4aa;
+  --color-blue-accent: #0099ff;
+  --color-slate-muted: #a0aec0;
+}
+
+@layer utilities {
+  .clip-path-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+}
+
